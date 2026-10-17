@@ -81,3 +81,7 @@ Current decision: ingestion is under way. The final methodology gate has **not p
 * Broadcom split 8-K: https://www.sec.gov/Archives/edgar/data/1730168/000114036124033072/ny20032136x6_8k.htm
 * NOW 2025 10-K: https://www.sec.gov/Archives/edgar/data/1373715/000137371526000007/now-20251231.htm
 * Nebius divestment: https://nebius.com/newsroom/ynv-announces-successful-completion-of-the-divestment-of-its-russia-based-businesses
+
+## Restricted release amendment (2026-10-17)
+
+The original full-population gate above remains open. See RELEASE_ASSESSMENT.md for the narrower released reporting-panel estimand, actual validation results and outstanding original acceptance criteria. The implemented restricted panel excludes amended manager histories instead of attempting unreviewed amendment-chain reconstruction. Its dollar estimates deliberately use internally consistent SEC implied prices and are labeled proxies; this relaxes the independent-market-price requirement only for this descriptive release, not for the original capital-confidence objective. Remaining accumulation is withheld. No representative/global/active-confidence interpretation is authorized.

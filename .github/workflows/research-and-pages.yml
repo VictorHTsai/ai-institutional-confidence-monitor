@@ -1,0 +1,74 @@
+name: Validate research and deploy Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '17 3 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: monitor-update
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s tests -v
+      - name: Discover current SEC releases and daily filing arrivals
+        if: github.event_name != 'push'
+        run: python src/check_releases.py
+      - uses: actions/cache@v4
+        if: github.event_name != 'push'
+        with:
+          path: research/staging.sqlite
+          key: sec-stage-${{ github.run_id }}
+          restore-keys: sec-stage-
+      - name: Ingest all published historical releases and revisions
+        if: github.event_name != 'push'
+        run: python src/ingest.py --refresh
+      - name: Validate restricted reporting panel
+        if: github.event_name != 'push'
+        run: |
+          python src/audit_staging.py
+          python src/build_panel.py
+      - name: Validate released dataset and package website
+        run: python src/package_site.py
+      - name: Preserve refreshed public data
+        if: github.event_name != 'push'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data research/archive_urls.json
+          git diff --cached --quiet || (git commit -m 'Refresh SEC reporting panel and provenance' && git push)
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - name: Preserve failure diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: research-failure-${{ github.run_id }}
+          path: data
+  deploy:
+    needs: research
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -42,4 +42,20 @@ class ArchiveLayout(unittest.TestCase):
   with zipfile.ZipFile(buf) as z:
    with self.assertRaises(ValueError):rows(z,'SUBMISSION')
 
+class PanelControls(unittest.TestCase):
+ def test_empty_exclusion_does_not_remove_manager(self):
+  from build_panel import select_panel
+  self.assertEqual(select_panel({'1','2','3'},{'1':set(),'2':{'shared'}}),{'1','3'})
+ def test_share_units_across_splits(self):
+  from build_panel import factor
+  self.assertEqual(factor('NVDA','2021-12-31'),10)
+  self.assertEqual(factor('NVDA','2024-06-30'),1)
+  self.assertEqual(factor('AMZN','2022-03-31'),20)
+  self.assertEqual(factor('GOOG','2022-06-30'),20)
+  self.assertEqual(factor('NOW','2025-09-30'),5)
+  self.assertEqual(factor('NOW','2025-12-31'),1)
+ def test_pending_dataset_cannot_deploy(self):
+  from package_site import validate
+  with self.assertRaises(ValueError):validate({'status':'pending_verification'})
+
 if __name__=='__main__':unittest.main()

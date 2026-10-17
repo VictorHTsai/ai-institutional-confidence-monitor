@@ -29,3 +29,7 @@ Initial fixed-2021 core candidate: the first 14 issuers, 15 securities. ORCL is 
 Excluded initially: INTC (turnaround/foundry/general CPU exposure makes AI-specific inference weak), broad industrial utilities/electrical/cooling companies (second-order capex and non-AI end markets require a separate validated study), generic technology and semiconductor ETFs (overlap/double counting), private AI labs (not 13F public common equity), Taiwan-listed TSM ordinary shares (different reporting scope). These are research scope decisions, not negative investment judgments.
 
 Future changes need dated rationale, eligibility, sources and a new methodology version. Additions must not mechanically increase a fixed-basket accumulation series.
+
+## Restricted numeric release
+
+19 securities / 18 issuers passed this release's data-reference checks. IREN is quarantined because the eligible 2023 Q3, 2023 Q4 and 2024 Q1 implied-price reference counts are 7, 6 and 15, respectively (minimum required 20). All other research candidates are included under the grouping and baseline restrictions above. This exclusion is a data-quality decision, not evidence of negative institutional confidence in IREN. See RELEASE_ASSESSMENT.md for the complete release status.
