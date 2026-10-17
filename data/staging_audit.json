@@ -1,0 +1,2097 @@
+{
+  "generated_at": "2026-10-17T14:54:44.301092+00:00",
+  "status": "staging_only_not_validated",
+  "publication_gate": "FAIL_PENDING_SECURITY_ACTION_PRICE_AMENDMENT_AND_OVERLAP_VALIDATION",
+  "archives": [
+    {
+      "url": "https://www.sec.gov/files/datastandardsinnovation/data/form-13f-data-sets/01jun2026-31aug2026_form13f.zip",
+      "sha256": "4db97d5652e262de51617971104e06313211de4d092e6bcb5d7bf34ee7efe054",
+      "size_bytes": 100719015,
+      "ingested_at": "2026-10-17T14:29:58.451515+00:00"
+    },
+    {
+      "url": "https://www.sec.gov/files/structureddata/data/form-13f-data-sets/01dec2024-28feb2025_form13f.zip",
+      "sha256": "11c6a1461051983f63839a655d4c9e4473a2ce963783f9d482af36e9b85551ea",
+      "size_bytes": 86543810,
+      "ingested_at": "2026-10-17T14:27:00.445704+00:00"
+    },
+    {
+      "url": "https://www.sec.gov/files/structureddata/data/form-13f-data-sets/01dec2025-28feb2026_form13f.zip",
+      "sha256": "ff340fc5dc0bc60539b03c3a97fffa3fe4ab0d728d6507a4aadabb4a888fbe01",
+      "size_bytes": 90264650,
+      "ingested_at": "2026-10-17T14:29:16.460412+00:00"
+    },
+    {
+      "url": "https://www.sec.gov/files/structureddata/data/form-13f-data-sets/01jan2024-29feb2024_form13f.zip",
+      "sha256": "ea5e5a9a0124a3d068d723cff502dc33b4ecbf7d0bf1b1ddad9e216a815ed6d9",
+      "size_bytes": 73048066,
+      "ingested_at": "2026-10-17T14:24:07.428107+00:00"
+    },
+    {
+      "url": "https://www.sec.gov/files/structureddata/data/form-13f-data-sets/01jun2024-31aug2024_form13f.zip",
+      "sha256": "b4f31fb944016f6317fcc20d42227c9bd27c16ae94b73cc489dccd24849c3597",
+      "size_bytes": 83912121,
+      "ingested_at": "2026-10-17T14:25:34.489342+00:00"
+    },
+    {
+      "url": "https://www.sec.gov/files/structureddata/data/form-13f-data-sets/01jun2025-31aug2025_form13f.zip",
+      "sha256": "9468ae5e90278e847d5035f5efe4294b104a2a25f35169f532b83cea6de19365",
+      "size_bytes": 86295095,
+      "ingested_at": "2026-10-17T14:28:30.185836+00:00"
+    },
+    {
+      "url": "https://www.sec.gov/files/structureddata/data/form-13f-data-sets/01mar2024-31may2024_form13f.zip",
+      "sha256": "fe723ad7d3e58f7e5f0bb3d5e46158c4c3bacc8a23a69b2d6eef3c97782d5cf8",
+      "size_bytes": 78174865,
+      "ingested_at": "2026-10-17T14:24:49.542635+00:00"
+    },
+    {
+      "url": "https://www.sec.gov/files/structureddata/data/form-13f-data-sets/01mar2025-31may2025_form13f.zip",
+      "sha256": "9dc2a285fb489b4d815be009f8cb94e0ff5fd12323bf976712a7e76c89e82e1d",
+      "size_bytes": 88273029,
+      "ingested_at": "2026-10-17T14:27:43.670474+00:00"
+    },
+    {
+      "url": "https://www.sec.gov/files/structureddata/data/form-13f-data-sets/01mar2026-31may2026_form13f.zip",
+      "sha256": "05f4da8f526cd471a387af45661a8cb3bbfaf345d3ec9c2cefd31349aa257e63",
+      "size_bytes": 99411274,
+      "ingested_at": "2026-10-17T14:29:42.093840+00:00"
+    },
+    {
+      "url": "https://www.sec.gov/files/structureddata/data/form-13f-data-sets/01sep2024-30nov2024_form13f.zip",
+      "sha256": "1a34fe4db7865656e2fe5ac2f27fca30e8712e2fd3ceeba4a5fa867fdd9345c1",
+      "size_bytes": 81665193,
+      "ingested_at": "2026-10-17T14:26:16.336679+00:00"
+    },
+    {
+      "url": "https://www.sec.gov/files/structureddata/data/form-13f-data-sets/01sep2025-30nov2025_form13f.zip",
+      "sha256": "7753ae28988c076baeb30a94656622ff0b3c5f55c90078d9d69fc14ba3d3b682",
+      "size_bytes": 85618099,
+      "ingested_at": "2026-10-17T14:28:52.774467+00:00"
+    },
+    {
+      "url": "https://www.sec.gov/files/structureddata/data/form-13f-data-sets/2021q4_form13f.zip",
+      "sha256": "25030b6c8d4f04760a26235181facb2b18fa4b266bf00b3da634a70f77ea4927",
+      "size_bytes": 60838096,
+      "ingested_at": "2026-10-17T14:18:34.677482+00:00"
+    },
+    {
+      "url": "https://www.sec.gov/files/structureddata/data/form-13f-data-sets/2022q1_form13f.zip",
+      "sha256": "d2b47bc3f5a677d42c4370e50d3bcdd13029f2683604963f4f5058567a8fe4e6",
+      "size_bytes": 64100013,
+      "ingested_at": "2026-10-17T14:19:08.965317+00:00"
+    },
+    {
+      "url": "https://www.sec.gov/files/structureddata/data/form-13f-data-sets/2022q2_form13f.zip",
+      "sha256": "166fe7f8ea6b4b3a2000a74165de62f8677aa95cdf9301d4a5b705e00fc0a48f",
+      "size_bytes": 62698411,
+      "ingested_at": "2026-10-17T14:19:43.069549+00:00"
+    },
+    {
+      "url": "https://www.sec.gov/files/structureddata/data/form-13f-data-sets/2022q3_form13f.zip",
+      "sha256": "f09e3588a93aa5fca7bef17009be924de9c3c5179b36c5c8749d3cb0f7fc61ad",
+      "size_bytes": 63065916,
+      "ingested_at": "2026-10-17T14:20:17.874104+00:00"
+    },
+    {
+      "url": "https://www.sec.gov/files/structureddata/data/form-13f-data-sets/2022q4_form13f.zip",
+      "sha256": "9275e86ec07d95b8958cfd6a0617a4eb72e3f6769490d7f008ea09e9cc999fe9",
+      "size_bytes": 62847968,
+      "ingested_at": "2026-10-17T14:20:53.816570+00:00"
+    },
+    {
+      "url": "https://www.sec.gov/files/structureddata/data/form-13f-data-sets/2023q1_form13f.zip",
+      "sha256": "b7dbfa5b3bde3a5e822872885becfb486a498a037c18e151267ebc01d8a69dd7",
+      "size_bytes": 71770077,
+      "ingested_at": "2026-10-17T14:21:31.621126+00:00"
+    },
+    {
+      "url": "https://www.sec.gov/files/structureddata/data/form-13f-data-sets/2023q2_form13f.zip",
+      "sha256": "0b360c45cd805471d33fb6dc0945dfc68494fb96a35cfacd6118055d9d6f8b39",
+      "size_bytes": 68860103,
+      "ingested_at": "2026-10-17T14:22:07.352077+00:00"
+    },
+    {
+      "url": "https://www.sec.gov/files/structureddata/data/form-13f-data-sets/2023q3_form13f.zip",
+      "sha256": "68d4a299ff5d1b8224695fc017ffce3030d972cfe9ccd0e450a99001a1cc171f",
+      "size_bytes": 70206149,
+      "ingested_at": "2026-10-17T14:22:49.136262+00:00"
+    },
+    {
+      "url": "https://www.sec.gov/files/structureddata/data/form-13f-data-sets/2023q4_form13f.zip",
+      "sha256": "aaccf592ab3c329fbb02a8d99eb1ed59aaeb1d578c57676273fcb89a69bdd6c4",
+      "size_bytes": 73022463,
+      "ingested_at": "2026-10-17T14:23:29.132873+00:00"
+    }
+  ],
+  "observed_filing_periods": {
+    "31-DEC-2020": {
+      "accessions": 281,
+      "holdings_reports": 160,
+      "amendments": 95,
+      "notices": 27,
+      "distinct_managers": 250
+    },
+    "30-JUN-2021": {
+      "accessions": 415,
+      "holdings_reports": 188,
+      "amendments": 194,
+      "notices": 43,
+      "distinct_managers": 353
+    },
+    "31-MAR-2021": {
+      "accessions": 327,
+      "holdings_reports": 176,
+      "amendments": 120,
+      "notices": 32,
+      "distinct_managers": 290
+    },
+    "30-SEP-2021": {
+      "accessions": 8098,
+      "holdings_reports": 6129,
+      "amendments": 328,
+      "notices": 1651,
+      "distinct_managers": 7769
+    },
+    "30-SEP-2020": {
+      "accessions": 204,
+      "holdings_reports": 111,
+      "amendments": 69,
+      "notices": 25,
+      "distinct_managers": 185
+    },
+    "31-MAR-2020": {
+      "accessions": 181,
+      "holdings_reports": 105,
+      "amendments": 52,
+      "notices": 25,
+      "distinct_managers": 165
+    },
+    "30-JUN-2020": {
+      "accessions": 194,
+      "holdings_reports": 109,
+      "amendments": 61,
+      "notices": 25,
+      "distinct_managers": 173
+    },
+    "30-SEP-2018": {
+      "accessions": 105,
+      "holdings_reports": 49,
+      "amendments": 39,
+      "notices": 31,
+      "distinct_managers": 95
+    },
+    "31-DEC-2019": {
+      "accessions": 161,
+      "holdings_reports": 98,
+      "amendments": 42,
+      "notices": 22,
+      "distinct_managers": 147
+    },
+    "30-SEP-2019": {
+      "accessions": 126,
+      "holdings_reports": 73,
+      "amendments": 36,
+      "notices": 18,
+      "distinct_managers": 114
+    },
+    "30-JUN-2019": {
+      "accessions": 121,
+      "holdings_reports": 71,
+      "amendments": 34,
+      "notices": 17,
+      "distinct_managers": 110
+    },
+    "30-JUN-2018": {
+      "accessions": 76,
+      "holdings_reports": 47,
+      "amendments": 16,
+      "notices": 14,
+      "distinct_managers": 72
+    },
+    "31-DEC-2018": {
+      "accessions": 102,
+      "holdings_reports": 58,
+      "amendments": 29,
+      "notices": 16,
+      "distinct_managers": 93
+    },
+    "30-SEP-2017": {
+      "accessions": 56,
+      "holdings_reports": 36,
+      "amendments": 12,
+      "notices": 9,
+      "distinct_managers": 52
+    },
+    "31-MAR-2018": {
+      "accessions": 77,
+      "holdings_reports": 47,
+      "amendments": 17,
+      "notices": 14,
+      "distinct_managers": 72
+    },
+    "31-MAR-2019": {
+      "accessions": 119,
+      "holdings_reports": 69,
+      "amendments": 34,
+      "notices": 17,
+      "distinct_managers": 109
+    },
+    "31-DEC-2017": {
+      "accessions": 73,
+      "holdings_reports": 46,
+      "amendments": 14,
+      "notices": 14,
+      "distinct_managers": 70
+    },
+    "31-DEC-2021": {
+      "accessions": 9132,
+      "holdings_reports": 7012,
+      "amendments": 359,
+      "notices": 1787,
+      "distinct_managers": 8769
+    },
+    "31-DEC-2016": {
+      "accessions": 40,
+      "holdings_reports": 32,
+      "amendments": 6,
+      "notices": 3,
+      "distinct_managers": 37
+    },
+    "30-SEP-2016": {
+      "accessions": 40,
+      "holdings_reports": 29,
+      "amendments": 6,
+      "notices": 6,
+      "distinct_managers": 38
+    },
+    "31-DEC-2015": {
+      "accessions": 33,
+      "holdings_reports": 24,
+      "amendments": 3,
+      "notices": 6,
+      "distinct_managers": 32
+    },
+    "30-JUN-2017": {
+      "accessions": 51,
+      "holdings_reports": 34,
+      "amendments": 9,
+      "notices": 9,
+      "distinct_managers": 47
+    },
+    "31-MAR-2017": {
+      "accessions": 49,
+      "holdings_reports": 33,
+      "amendments": 8,
+      "notices": 9,
+      "distinct_managers": 46
+    },
+    "30-JUN-2016": {
+      "accessions": 42,
+      "holdings_reports": 29,
+      "amendments": 7,
+      "notices": 7,
+      "distinct_managers": 39
+    },
+    "31-MAR-2016": {
+      "accessions": 40,
+      "holdings_reports": 29,
+      "amendments": 5,
+      "notices": 7,
+      "distinct_managers": 39
+    },
+    "31-DEC-2014": {
+      "accessions": 27,
+      "holdings_reports": 21,
+      "amendments": 3,
+      "notices": 3,
+      "distinct_managers": 26
+    },
+    "31-MAR-2015": {
+      "accessions": 29,
+      "holdings_reports": 22,
+      "amendments": 3,
+      "notices": 4,
+      "distinct_managers": 28
+    },
+    "30-SEP-2015": {
+      "accessions": 29,
+      "holdings_reports": 22,
+      "amendments": 3,
+      "notices": 4,
+      "distinct_managers": 28
+    },
+    "30-JUN-2015": {
+      "accessions": 29,
+      "holdings_reports": 22,
+      "amendments": 3,
+      "notices": 4,
+      "distinct_managers": 28
+    },
+    "31-MAR-2022": {
+      "accessions": 9119,
+      "holdings_reports": 6991,
+      "amendments": 383,
+      "notices": 1753,
+      "distinct_managers": 8734
+    },
+    "31-MAR-1987": {
+      "accessions": 1,
+      "holdings_reports": 1,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 1
+    },
+    "30-JUN-2022": {
+      "accessions": 9002,
+      "holdings_reports": 6964,
+      "amendments": 303,
+      "notices": 1736,
+      "distinct_managers": 8696
+    },
+    "31-DEC-2010": {
+      "accessions": 8,
+      "holdings_reports": 7,
+      "amendments": 1,
+      "notices": 0,
+      "distinct_managers": 8
+    },
+    "30-SEP-2011": {
+      "accessions": 9,
+      "holdings_reports": 8,
+      "amendments": 1,
+      "notices": 0,
+      "distinct_managers": 9
+    },
+    "31-MAR-2014": {
+      "accessions": 22,
+      "holdings_reports": 18,
+      "amendments": 2,
+      "notices": 2,
+      "distinct_managers": 21
+    },
+    "31-MAR-2013": {
+      "accessions": 10,
+      "holdings_reports": 9,
+      "amendments": 1,
+      "notices": 0,
+      "distinct_managers": 10
+    },
+    "31-MAR-2011": {
+      "accessions": 8,
+      "holdings_reports": 7,
+      "amendments": 1,
+      "notices": 0,
+      "distinct_managers": 8
+    },
+    "31-DEC-2013": {
+      "accessions": 20,
+      "holdings_reports": 16,
+      "amendments": 2,
+      "notices": 2,
+      "distinct_managers": 19
+    },
+    "30-SEP-2014": {
+      "accessions": 23,
+      "holdings_reports": 18,
+      "amendments": 3,
+      "notices": 2,
+      "distinct_managers": 22
+    },
+    "31-DEC-2011": {
+      "accessions": 8,
+      "holdings_reports": 7,
+      "amendments": 1,
+      "notices": 0,
+      "distinct_managers": 8
+    },
+    "31-DEC-2012": {
+      "accessions": 10,
+      "holdings_reports": 9,
+      "amendments": 1,
+      "notices": 0,
+      "distinct_managers": 10
+    },
+    "30-JUN-2012": {
+      "accessions": 8,
+      "holdings_reports": 7,
+      "amendments": 1,
+      "notices": 0,
+      "distinct_managers": 8
+    },
+    "31-MAR-2012": {
+      "accessions": 8,
+      "holdings_reports": 7,
+      "amendments": 1,
+      "notices": 0,
+      "distinct_managers": 8
+    },
+    "30-JUN-2011": {
+      "accessions": 8,
+      "holdings_reports": 7,
+      "amendments": 1,
+      "notices": 0,
+      "distinct_managers": 8
+    },
+    "30-JUN-2014": {
+      "accessions": 23,
+      "holdings_reports": 18,
+      "amendments": 3,
+      "notices": 2,
+      "distinct_managers": 22
+    },
+    "30-SEP-2013": {
+      "accessions": 11,
+      "holdings_reports": 10,
+      "amendments": 1,
+      "notices": 0,
+      "distinct_managers": 11
+    },
+    "30-SEP-2012": {
+      "accessions": 8,
+      "holdings_reports": 7,
+      "amendments": 1,
+      "notices": 0,
+      "distinct_managers": 8
+    },
+    "30-JUN-2013": {
+      "accessions": 11,
+      "holdings_reports": 10,
+      "amendments": 1,
+      "notices": 0,
+      "distinct_managers": 11
+    },
+    "30-SEP-2022": {
+      "accessions": 8990,
+      "holdings_reports": 6936,
+      "amendments": 330,
+      "notices": 1732,
+      "distinct_managers": 8650
+    },
+    "31-DEC-2022": {
+      "accessions": 9402,
+      "holdings_reports": 7191,
+      "amendments": 500,
+      "notices": 1733,
+      "distinct_managers": 8889
+    },
+    "31-MAR-2023": {
+      "accessions": 9177,
+      "holdings_reports": 7108,
+      "amendments": 359,
+      "notices": 1723,
+      "distinct_managers": 8811
+    },
+    "30-JUN-2023": {
+      "accessions": 9164,
+      "holdings_reports": 7133,
+      "amendments": 332,
+      "notices": 1712,
+      "distinct_managers": 8823
+    },
+    "31-MAR-2010": {
+      "accessions": 7,
+      "holdings_reports": 7,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 7
+    },
+    "30-SEP-2023": {
+      "accessions": 9138,
+      "holdings_reports": 7144,
+      "amendments": 305,
+      "notices": 1696,
+      "distinct_managers": 8824
+    },
+    "31-DEC-2023": {
+      "accessions": 9690,
+      "holdings_reports": 7535,
+      "amendments": 433,
+      "notices": 1736,
+      "distinct_managers": 9248
+    },
+    "31-DEC-2006": {
+      "accessions": 4,
+      "holdings_reports": 4,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 4
+    },
+    "30-JUN-2007": {
+      "accessions": 4,
+      "holdings_reports": 4,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 4
+    },
+    "30-SEP-2008": {
+      "accessions": 5,
+      "holdings_reports": 5,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 5
+    },
+    "31-MAR-2007": {
+      "accessions": 4,
+      "holdings_reports": 4,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 4
+    },
+    "30-JUN-2010": {
+      "accessions": 6,
+      "holdings_reports": 6,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 6
+    },
+    "30-JUN-2009": {
+      "accessions": 5,
+      "holdings_reports": 5,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 5
+    },
+    "30-SEP-2009": {
+      "accessions": 6,
+      "holdings_reports": 6,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 6
+    },
+    "30-JUN-2008": {
+      "accessions": 5,
+      "holdings_reports": 5,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 5
+    },
+    "30-SEP-2010": {
+      "accessions": 6,
+      "holdings_reports": 6,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 6
+    },
+    "31-DEC-2008": {
+      "accessions": 5,
+      "holdings_reports": 5,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 5
+    },
+    "30-SEP-2007": {
+      "accessions": 4,
+      "holdings_reports": 4,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 4
+    },
+    "31-MAR-2009": {
+      "accessions": 4,
+      "holdings_reports": 4,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 4
+    },
+    "31-DEC-2009": {
+      "accessions": 6,
+      "holdings_reports": 6,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 6
+    },
+    "31-DEC-2007": {
+      "accessions": 4,
+      "holdings_reports": 4,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 4
+    },
+    "31-MAR-2008": {
+      "accessions": 5,
+      "holdings_reports": 5,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 5
+    },
+    "31-MAR-2024": {
+      "accessions": 9535,
+      "holdings_reports": 7507,
+      "amendments": 316,
+      "notices": 1726,
+      "distinct_managers": 9216
+    },
+    "30-JUN-2024": {
+      "accessions": 9555,
+      "holdings_reports": 7513,
+      "amendments": 290,
+      "notices": 1757,
+      "distinct_managers": 9266
+    },
+    "30-SEP-2024": {
+      "accessions": 9513,
+      "holdings_reports": 7538,
+      "amendments": 239,
+      "notices": 1739,
+      "distinct_managers": 9274
+    },
+    "31-DEC-2024": {
+      "accessions": 10390,
+      "holdings_reports": 8252,
+      "amendments": 292,
+      "notices": 1847,
+      "distinct_managers": 10097
+    },
+    "31-MAR-2025": {
+      "accessions": 10339,
+      "holdings_reports": 8202,
+      "amendments": 286,
+      "notices": 1861,
+      "distinct_managers": 10051
+    },
+    "30-JUN-2025": {
+      "accessions": 10356,
+      "holdings_reports": 8218,
+      "amendments": 280,
+      "notices": 1878,
+      "distinct_managers": 10076
+    },
+    "30-SEP-2025": {
+      "accessions": 10288,
+      "holdings_reports": 8199,
+      "amendments": 239,
+      "notices": 1865,
+      "distinct_managers": 10046
+    },
+    "31-DEC-2025": {
+      "accessions": 11142,
+      "holdings_reports": 8908,
+      "amendments": 310,
+      "notices": 1996,
+      "distinct_managers": 10831
+    },
+    "31-MAR-2026": {
+      "accessions": 10995,
+      "holdings_reports": 8871,
+      "amendments": 213,
+      "notices": 1914,
+      "distinct_managers": 10781
+    },
+    "30-JUN-2026": {
+      "accessions": 10940,
+      "holdings_reports": 8857,
+      "amendments": 147,
+      "notices": 1940,
+      "distinct_managers": 10793
+    },
+    "31-DEC-2001": {
+      "accessions": 1,
+      "holdings_reports": 1,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 1
+    },
+    "30-SEP-2001": {
+      "accessions": 1,
+      "holdings_reports": 1,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 1
+    },
+    "31-MAR-2002": {
+      "accessions": 1,
+      "holdings_reports": 1,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 1
+    },
+    "30-JUN-2002": {
+      "accessions": 1,
+      "holdings_reports": 1,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 1
+    },
+    "30-SEP-2002": {
+      "accessions": 1,
+      "holdings_reports": 1,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 1
+    },
+    "31-DEC-2002": {
+      "accessions": 1,
+      "holdings_reports": 1,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 1
+    },
+    "30-JUN-2003": {
+      "accessions": 1,
+      "holdings_reports": 1,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 1
+    },
+    "31-MAR-2003": {
+      "accessions": 1,
+      "holdings_reports": 1,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 1
+    },
+    "31-DEC-2003": {
+      "accessions": 1,
+      "holdings_reports": 1,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 1
+    },
+    "30-SEP-2003": {
+      "accessions": 1,
+      "holdings_reports": 1,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 1
+    },
+    "31-MAR-2004": {
+      "accessions": 1,
+      "holdings_reports": 1,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 1
+    },
+    "30-JUN-2004": {
+      "accessions": 1,
+      "holdings_reports": 1,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 1
+    },
+    "31-DEC-2004": {
+      "accessions": 1,
+      "holdings_reports": 1,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 1
+    },
+    "30-SEP-2004": {
+      "accessions": 1,
+      "holdings_reports": 1,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 1
+    },
+    "30-JUN-2005": {
+      "accessions": 1,
+      "holdings_reports": 1,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 1
+    },
+    "31-MAR-2005": {
+      "accessions": 1,
+      "holdings_reports": 1,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 1
+    },
+    "30-SEP-2005": {
+      "accessions": 1,
+      "holdings_reports": 1,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 1
+    },
+    "31-DEC-2005": {
+      "accessions": 1,
+      "holdings_reports": 1,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 1
+    },
+    "30-JUN-2006": {
+      "accessions": 1,
+      "holdings_reports": 1,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 1
+    },
+    "31-MAR-2006": {
+      "accessions": 1,
+      "holdings_reports": 1,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 1
+    },
+    "30-SEP-2006": {
+      "accessions": 1,
+      "holdings_reports": 1,
+      "amendments": 0,
+      "notices": 0,
+      "distinct_managers": 1
+    }
+  },
+  "metadata_counts": {
+    "SUBMISSION": 197289,
+    "COVERPAGE": 197289,
+    "OTHERMANAGER": 84569,
+    "OTHERMANAGER2": 70124,
+    "SUMMARYPAGE": 163377
+  },
+  "conflicting_metadata": {},
+  "amendment_types": {
+    "NEW HOLDINGS": 2162,
+    "RESTATEMENT": 5004
+  },
+  "relationship_rows": {
+    "OTHERMANAGER": 84569,
+    "OTHERMANAGER2": 70124
+  },
+  "candidate_rows": {
+    "GOOG_FAMILY": 257208,
+    "AMZN": 161603,
+    "ASML": 47199,
+    "META": 125503,
+    "AVGO": 101559,
+    "NVDA": 141183,
+    "ORCL": 88225,
+    "CRM": 83970,
+    "NOW": 59156,
+    "TSM": 62050,
+    "MRVL": 38729,
+    "MU": 59964,
+    "MSFT": 170387,
+    "AMD": 73743,
+    "PLTR": 49218,
+    "NBIS": 12758,
+    "IREN": 5376,
+    "APLD": 6098,
+    "CRWV": 6067
+  },
+  "candidate_option_rows": {
+    "TSM": 3666,
+    "AMD": 9445,
+    "AMZN": 13511,
+    "AVGO": 8475,
+    "META": 10418,
+    "GOOG_FAMILY": 16194,
+    "CRM": 6116,
+    "NVDA": 16600,
+    "MRVL": 2613,
+    "MU": 7072,
+    "MSFT": 11710,
+    "ORCL": 5644,
+    "NOW": 3680,
+    "PLTR": 4644,
+    "ASML": 2416,
+    "NBIS": 1039,
+    "IREN": 928,
+    "APLD": 710,
+    "CRWV": 880
+  },
+  "candidate_shared_discretion_or_other_manager_rows": {
+    "TSM": 27621,
+    "AMD": 34908,
+    "AMZN": 60885,
+    "ASML": 19506,
+    "AVGO": 43010,
+    "META": 50397,
+    "GOOG_FAMILY": 100975,
+    "CRM": 37434,
+    "NVDA": 56690,
+    "MRVL": 19694,
+    "MU": 29293,
+    "MSFT": 64320,
+    "ORCL": 37848,
+    "NOW": 28660,
+    "NBIS": 7163,
+    "PLTR": 21013,
+    "IREN": 2681,
+    "APLD": 3436,
+    "CRWV": 2691
+  },
+  "candidate_rows_without_submission": {},
+  "candidate_identifiers": {
+    "GOOG_FAMILY": [
+      {
+        "cusip": "02079K305",
+        "class": "CAP STK CL A",
+        "rows": 97200
+      },
+      {
+        "cusip": "02079K107",
+        "class": "CAP STK CL C",
+        "rows": 85206
+      },
+      {
+        "cusip": "02079K305",
+        "class": "COM",
+        "rows": 10410
+      },
+      {
+        "cusip": "02079K107",
+        "class": "COM",
+        "rows": 8691
+      },
+      {
+        "cusip": "02079K107",
+        "class": "Stock",
+        "rows": 5140
+      },
+      {
+        "cusip": "02079K107",
+        "class": "COMMON STOCK",
+        "rows": 5055
+      },
+      {
+        "cusip": "02079K305",
+        "class": "Stock",
+        "rows": 5016
+      },
+      {
+        "cusip": "02079K305",
+        "class": "Common Stock",
+        "rows": 4761
+      },
+      {
+        "cusip": "02079K305",
+        "class": "COMMON STOCK",
+        "rows": 3725
+      },
+      {
+        "cusip": "02079K107",
+        "class": "Common Stock",
+        "rows": 3185
+      },
+      {
+        "cusip": "02079K305",
+        "class": "Option",
+        "rows": 2549
+      },
+      {
+        "cusip": "02079K107",
+        "class": "Option",
+        "rows": 2239
+      }
+    ],
+    "AMZN": [
+      {
+        "cusip": "023135106",
+        "class": "COM",
+        "rows": 125350
+      },
+      {
+        "cusip": "023135106",
+        "class": "COMMON STOCK",
+        "rows": 7359
+      },
+      {
+        "cusip": "023135106",
+        "class": "Common Stock",
+        "rows": 7166
+      },
+      {
+        "cusip": "023135106",
+        "class": "Stock",
+        "rows": 5990
+      },
+      {
+        "cusip": "023135106",
+        "class": "Option",
+        "rows": 3996
+      },
+      {
+        "cusip": "023135106",
+        "class": "COMMON",
+        "rows": 1318
+      },
+      {
+        "cusip": "023135106",
+        "class": "Com",
+        "rows": 1237
+      },
+      {
+        "cusip": "023135106",
+        "class": "OPTION",
+        "rows": 693
+      },
+      {
+        "cusip": "023135106",
+        "class": "Equities",
+        "rows": 655
+      },
+      {
+        "cusip": "023135106",
+        "class": "AMZN",
+        "rows": 614
+      },
+      {
+        "cusip": "023135106",
+        "class": "CMN",
+        "rows": 442
+      },
+      {
+        "cusip": "023135106",
+        "class": "Common",
+        "rows": 405
+      }
+    ],
+    "ASML": [
+      {
+        "cusip": "N07059210",
+        "class": "N Y REGISTRY SHS",
+        "rows": 30655
+      },
+      {
+        "cusip": "N07059210",
+        "class": "ADR",
+        "rows": 3486
+      },
+      {
+        "cusip": "N07059210",
+        "class": "Common Stock",
+        "rows": 2454
+      },
+      {
+        "cusip": "N07059210",
+        "class": "COM",
+        "rows": 2017
+      },
+      {
+        "cusip": "N07059210",
+        "class": "AMERICAN DEPOSITORY",
+        "rows": 1766
+      },
+      {
+        "cusip": "N07059210",
+        "class": "ADR SPONSORED",
+        "rows": 772
+      },
+      {
+        "cusip": "N07059210",
+        "class": "Com",
+        "rows": 320
+      },
+      {
+        "cusip": "N07059210",
+        "class": "Option",
+        "rows": 265
+      },
+      {
+        "cusip": "N07059210",
+        "class": "COMMON STOCK",
+        "rows": 242
+      },
+      {
+        "cusip": "N07059210",
+        "class": "CMN",
+        "rows": 236
+      },
+      {
+        "cusip": "N07059210",
+        "class": "NY Reg Shrs",
+        "rows": 229
+      },
+      {
+        "cusip": "N07059210",
+        "class": "N Y",
+        "rows": 204
+      }
+    ],
+    "META": [
+      {
+        "cusip": "30303M102",
+        "class": "CL A",
+        "rows": 89153
+      },
+      {
+        "cusip": "30303M102",
+        "class": "COM",
+        "rows": 8529
+      },
+      {
+        "cusip": "30303M102",
+        "class": "Stock",
+        "rows": 5020
+      },
+      {
+        "cusip": "30303M102",
+        "class": "COMMON STOCK",
+        "rows": 4875
+      },
+      {
+        "cusip": "30303M102",
+        "class": "Common Stock",
+        "rows": 4171
+      },
+      {
+        "cusip": "30303M102",
+        "class": "Option",
+        "rows": 3358
+      },
+      {
+        "cusip": "30303M102",
+        "class": "COMMON",
+        "rows": 1069
+      },
+      {
+        "cusip": "30303M102",
+        "class": "COM CL A",
+        "rows": 994
+      },
+      {
+        "cusip": "30303M102",
+        "class": "Com",
+        "rows": 899
+      },
+      {
+        "cusip": "30303M102",
+        "class": "Equities",
+        "rows": 541
+      },
+      {
+        "cusip": "30303M102",
+        "class": "CMN",
+        "rows": 395
+      },
+      {
+        "cusip": "30303M102",
+        "class": "OPTION",
+        "rows": 361
+      }
+    ],
+    "AVGO": [
+      {
+        "cusip": "11135F101",
+        "class": "COM",
+        "rows": 78744
+      },
+      {
+        "cusip": "11135F101",
+        "class": "Common Stock",
+        "rows": 4597
+      },
+      {
+        "cusip": "11135F101",
+        "class": "Stock",
+        "rows": 4014
+      },
+      {
+        "cusip": "11135F101",
+        "class": "Option",
+        "rows": 3217
+      },
+      {
+        "cusip": "11135F101",
+        "class": "COMMON STOCK",
+        "rows": 2629
+      },
+      {
+        "cusip": "11135F101",
+        "class": "COMMON",
+        "rows": 1084
+      },
+      {
+        "cusip": "11135F101",
+        "class": "Com",
+        "rows": 743
+      },
+      {
+        "cusip": "11135F101",
+        "class": "Equities",
+        "rows": 487
+      },
+      {
+        "cusip": "11135F101",
+        "class": "OPTION",
+        "rows": 359
+      },
+      {
+        "cusip": "11135F101",
+        "class": "CMN",
+        "rows": 336
+      },
+      {
+        "cusip": "11135F200",
+        "class": "8% MCNV PFD SR A",
+        "rows": 306
+      },
+      {
+        "cusip": "11135F951",
+        "class": "PUT",
+        "rows": 247
+      }
+    ],
+    "NVDA": [
+      {
+        "cusip": "67066G104",
+        "class": "COM",
+        "rows": 109950
+      },
+      {
+        "cusip": "67066G104",
+        "class": "Stock",
+        "rows": 5400
+      },
+      {
+        "cusip": "67066G104",
+        "class": "Common Stock",
+        "rows": 5195
+      },
+      {
+        "cusip": "67066G104",
+        "class": "Option",
+        "rows": 5171
+      },
+      {
+        "cusip": "67066G104",
+        "class": "COMMON STOCK",
+        "rows": 5023
+      },
+      {
+        "cusip": "67066G104",
+        "class": "COMMON",
+        "rows": 1232
+      },
+      {
+        "cusip": "67066G104",
+        "class": "Com",
+        "rows": 1023
+      },
+      {
+        "cusip": "67066G104",
+        "class": "Equities",
+        "rows": 559
+      },
+      {
+        "cusip": "67066G104",
+        "class": "OPTION",
+        "rows": 554
+      },
+      {
+        "cusip": "67066G954",
+        "class": "PUT",
+        "rows": 487
+      },
+      {
+        "cusip": "67066G104",
+        "class": "CMN",
+        "rows": 421
+      },
+      {
+        "cusip": "67066G904",
+        "class": "CALL",
+        "rows": 389
+      }
+    ],
+    "ORCL": [
+      {
+        "cusip": "68389X105",
+        "class": "COM",
+        "rows": 69232
+      },
+      {
+        "cusip": "68389X105",
+        "class": "Stock",
+        "rows": 4144
+      },
+      {
+        "cusip": "68389X105",
+        "class": "COMMON STOCK",
+        "rows": 3016
+      },
+      {
+        "cusip": "68389X105",
+        "class": "Common Stock",
+        "rows": 2623
+      },
+      {
+        "cusip": "68389X105",
+        "class": "Option",
+        "rows": 1652
+      },
+      {
+        "cusip": "68389X105",
+        "class": "COMMON",
+        "rows": 1021
+      },
+      {
+        "cusip": "68389X105",
+        "class": "Com",
+        "rows": 946
+      },
+      {
+        "cusip": "68389X105",
+        "class": "Equities",
+        "rows": 466
+      },
+      {
+        "cusip": "68389X105",
+        "class": "Common",
+        "rows": 314
+      },
+      {
+        "cusip": "68389X105",
+        "class": "CMN",
+        "rows": 303
+      },
+      {
+        "cusip": "68389X204",
+        "class": "6.5 DEP CUM SR D",
+        "rows": 297
+      },
+      {
+        "cusip": "68389X105",
+        "class": "Equity",
+        "rows": 224
+      }
+    ],
+    "CRM": [
+      {
+        "cusip": "79466L302",
+        "class": "COM",
+        "rows": 66174
+      },
+      {
+        "cusip": "79466L302",
+        "class": "COMMON STOCK",
+        "rows": 3744
+      },
+      {
+        "cusip": "79466L302",
+        "class": "Stock",
+        "rows": 3573
+      },
+      {
+        "cusip": "79466L302",
+        "class": "Common Stock",
+        "rows": 2161
+      },
+      {
+        "cusip": "79466L302",
+        "class": "Option",
+        "rows": 1498
+      },
+      {
+        "cusip": "79466L302",
+        "class": "COMMON",
+        "rows": 996
+      },
+      {
+        "cusip": "79466L302",
+        "class": "Com",
+        "rows": 771
+      },
+      {
+        "cusip": "79466L302",
+        "class": "Equities",
+        "rows": 403
+      },
+      {
+        "cusip": "79466L302",
+        "class": "CMN",
+        "rows": 374
+      },
+      {
+        "cusip": "79466L302",
+        "class": "Common",
+        "rows": 250
+      },
+      {
+        "cusip": "79466L302",
+        "class": "Equity",
+        "rows": 247
+      },
+      {
+        "cusip": "79466L302",
+        "class": "CRM",
+        "rows": 225
+      }
+    ],
+    "NOW": [
+      {
+        "cusip": "81762P102",
+        "class": "COM",
+        "rows": 47120
+      },
+      {
+        "cusip": "81762P102",
+        "class": "Stock",
+        "rows": 2433
+      },
+      {
+        "cusip": "81762P102",
+        "class": "Common Stock",
+        "rows": 2216
+      },
+      {
+        "cusip": "81762P102",
+        "class": "COMMON STOCK",
+        "rows": 1621
+      },
+      {
+        "cusip": "81762P102",
+        "class": "COMMON",
+        "rows": 909
+      },
+      {
+        "cusip": "81762P102",
+        "class": "Option",
+        "rows": 568
+      },
+      {
+        "cusip": "81762P102",
+        "class": "CMN",
+        "rows": 337
+      },
+      {
+        "cusip": "81762P102",
+        "class": "Com",
+        "rows": 335
+      },
+      {
+        "cusip": "81762P102",
+        "class": "SC",
+        "rows": 255
+      },
+      {
+        "cusip": "81762P102",
+        "class": "Common",
+        "rows": 205
+      },
+      {
+        "cusip": "81762P102",
+        "class": "Equity",
+        "rows": 173
+      },
+      {
+        "cusip": "81762P102",
+        "class": "Equities",
+        "rows": 169
+      }
+    ],
+    "TSM": [
+      {
+        "cusip": "874039100",
+        "class": "SPONSORED ADS",
+        "rows": 45628
+      },
+      {
+        "cusip": "874039100",
+        "class": "ADR",
+        "rows": 5750
+      },
+      {
+        "cusip": "874039100",
+        "class": "COM",
+        "rows": 1963
+      },
+      {
+        "cusip": "874039100",
+        "class": "Common Stock",
+        "rows": 1447
+      },
+      {
+        "cusip": "874039100",
+        "class": "SPONSORED ADR",
+        "rows": 824
+      },
+      {
+        "cusip": "874039100",
+        "class": "AMERICAN DEPOSITORY",
+        "rows": 605
+      },
+      {
+        "cusip": "874039100",
+        "class": "SPON",
+        "rows": 428
+      },
+      {
+        "cusip": "874039100",
+        "class": "Com",
+        "rows": 338
+      },
+      {
+        "cusip": "874039100",
+        "class": "COMMON STOCK",
+        "rows": 316
+      },
+      {
+        "cusip": "874039100",
+        "class": "CMN",
+        "rows": 299
+      },
+      {
+        "cusip": "874039100",
+        "class": "FOREIGN STOCK",
+        "rows": 261
+      },
+      {
+        "cusip": "874039100",
+        "class": "Equities",
+        "rows": 237
+      }
+    ],
+    "MRVL": [
+      {
+        "cusip": "573874104",
+        "class": "COM",
+        "rows": 31214
+      },
+      {
+        "cusip": "573874104",
+        "class": "Stock",
+        "rows": 1628
+      },
+      {
+        "cusip": "573874104",
+        "class": "Common Stock",
+        "rows": 1027
+      },
+      {
+        "cusip": "573874104",
+        "class": "COMMON STOCK",
+        "rows": 866
+      },
+      {
+        "cusip": "573874104",
+        "class": "COMMON",
+        "rows": 660
+      },
+      {
+        "cusip": "573874104",
+        "class": "CMN",
+        "rows": 300
+      },
+      {
+        "cusip": "G5876H105",
+        "class": "ORD",
+        "rows": 258
+      },
+      {
+        "cusip": "573874104",
+        "class": "Com",
+        "rows": 203
+      },
+      {
+        "cusip": "573874104",
+        "class": "SC",
+        "rows": 163
+      },
+      {
+        "cusip": "573874104",
+        "class": "EQUITY US CM",
+        "rows": 140
+      },
+      {
+        "cusip": "573874904",
+        "class": "CALL",
+        "rows": 140
+      },
+      {
+        "cusip": "573874104",
+        "class": "COM ",
+        "rows": 133
+      }
+    ],
+    "MU": [
+      {
+        "cusip": "595112103",
+        "class": "COM",
+        "rows": 47640
+      },
+      {
+        "cusip": "595112103",
+        "class": "Stock",
+        "rows": 2493
+      },
+      {
+        "cusip": "595112103",
+        "class": "Option",
+        "rows": 2033
+      },
+      {
+        "cusip": "595112103",
+        "class": "Common Stock",
+        "rows": 1735
+      },
+      {
+        "cusip": "595112103",
+        "class": "COMMON STOCK",
+        "rows": 1065
+      },
+      {
+        "cusip": "595112103",
+        "class": "COMMON",
+        "rows": 789
+      },
+      {
+        "cusip": "595112103",
+        "class": "CMN",
+        "rows": 363
+      },
+      {
+        "cusip": "595112103",
+        "class": "OPTION",
+        "rows": 335
+      },
+      {
+        "cusip": "595112103",
+        "class": "Com",
+        "rows": 303
+      },
+      {
+        "cusip": "595112903",
+        "class": "CALL",
+        "rows": 197
+      },
+      {
+        "cusip": "595112953",
+        "class": "PUT",
+        "rows": 190
+      },
+      {
+        "cusip": "595112103",
+        "class": "Equity",
+        "rows": 159
+      }
+    ],
+    "MSFT": [
+      {
+        "cusip": "594918104",
+        "class": "COM",
+        "rows": 134176
+      },
+      {
+        "cusip": "594918104",
+        "class": "COMMON STOCK",
+        "rows": 7362
+      },
+      {
+        "cusip": "594918104",
+        "class": "Common Stock",
+        "rows": 6962
+      },
+      {
+        "cusip": "594918104",
+        "class": "Stock",
+        "rows": 6505
+      },
+      {
+        "cusip": "594918104",
+        "class": "Option",
+        "rows": 3267
+      },
+      {
+        "cusip": "594918104",
+        "class": "COMMON",
+        "rows": 1468
+      },
+      {
+        "cusip": "594918104",
+        "class": "Com",
+        "rows": 1327
+      },
+      {
+        "cusip": "594918104",
+        "class": "Equities",
+        "rows": 729
+      },
+      {
+        "cusip": "594918104",
+        "class": "MSFT",
+        "rows": 605
+      },
+      {
+        "cusip": "594918104",
+        "class": "Common",
+        "rows": 482
+      },
+      {
+        "cusip": "594918104",
+        "class": "CMN",
+        "rows": 428
+      },
+      {
+        "cusip": "594918104",
+        "class": "OPTION",
+        "rows": 415
+      }
+    ],
+    "AMD": [
+      {
+        "cusip": "007903107",
+        "class": "COM",
+        "rows": 58817
+      },
+      {
+        "cusip": "007903107",
+        "class": "Option",
+        "rows": 3275
+      },
+      {
+        "cusip": "007903107",
+        "class": "Stock",
+        "rows": 3240
+      },
+      {
+        "cusip": "007903107",
+        "class": "Common Stock",
+        "rows": 1235
+      },
+      {
+        "cusip": "007903107",
+        "class": "COMMON STOCK",
+        "rows": 1157
+      },
+      {
+        "cusip": "007903107",
+        "class": "COMMON",
+        "rows": 756
+      },
+      {
+        "cusip": "007903107",
+        "class": "Com",
+        "rows": 454
+      },
+      {
+        "cusip": "007903107",
+        "class": "CMN",
+        "rows": 392
+      },
+      {
+        "cusip": "007903107",
+        "class": "OPTION",
+        "rows": 305
+      },
+      {
+        "cusip": "007903957",
+        "class": "PUT",
+        "rows": 241
+      },
+      {
+        "cusip": "007903907",
+        "class": "CALL",
+        "rows": 240
+      },
+      {
+        "cusip": "007903107",
+        "class": "Equities",
+        "rows": 229
+      }
+    ],
+    "PLTR": [
+      {
+        "cusip": "69608A108",
+        "class": "CL A",
+        "rows": 35434
+      },
+      {
+        "cusip": "69608A108",
+        "class": "COM",
+        "rows": 2841
+      },
+      {
+        "cusip": "69608A108",
+        "class": "Stock",
+        "rows": 2442
+      },
+      {
+        "cusip": "69608A108",
+        "class": "COMMON STOCK",
+        "rows": 2258
+      },
+      {
+        "cusip": "69608A108",
+        "class": "Common Stock",
+        "rows": 1469
+      },
+      {
+        "cusip": "69608A108",
+        "class": "Option",
+        "rows": 901
+      },
+      {
+        "cusip": "69608A108",
+        "class": "COMMON",
+        "rows": 469
+      },
+      {
+        "cusip": "69608A108",
+        "class": "Com",
+        "rows": 275
+      },
+      {
+        "cusip": "69608A108",
+        "class": "CMN",
+        "rows": 260
+      },
+      {
+        "cusip": "69608A908",
+        "class": "CALL",
+        "rows": 170
+      },
+      {
+        "cusip": "69608A958",
+        "class": "PUT",
+        "rows": 168
+      },
+      {
+        "cusip": "69608A108",
+        "class": "PLTR",
+        "rows": 165
+      }
+    ],
+    "NBIS": [
+      {
+        "cusip": "N97284108",
+        "class": "SHS CLASS A",
+        "rows": 9187
+      },
+      {
+        "cusip": "N97284108",
+        "class": "COM",
+        "rows": 642
+      },
+      {
+        "cusip": "N97284108",
+        "class": "Stock",
+        "rows": 515
+      },
+      {
+        "cusip": "N97284108",
+        "class": "Common Stock",
+        "rows": 264
+      },
+      {
+        "cusip": "N97284108",
+        "class": "COMMON",
+        "rows": 255
+      },
+      {
+        "cusip": "N97284108",
+        "class": "SHS",
+        "rows": 189
+      },
+      {
+        "cusip": "N97284108",
+        "class": "COMMON STOCK",
+        "rows": 160
+      },
+      {
+        "cusip": "N97284108",
+        "class": "FOREIGN ORDINARIES",
+        "rows": 147
+      },
+      {
+        "cusip": "N97284108",
+        "class": "CMN",
+        "rows": 125
+      },
+      {
+        "cusip": "N97284108",
+        "class": "NON US EQTY",
+        "rows": 110
+      },
+      {
+        "cusip": "N97284108",
+        "class": "CLASS A",
+        "rows": 80
+      },
+      {
+        "cusip": "N97284108",
+        "class": "International Equities",
+        "rows": 76
+      }
+    ],
+    "IREN": [
+      {
+        "cusip": "Q4982L109",
+        "class": "ORDINARY SHARES",
+        "rows": 3980
+      },
+      {
+        "cusip": "Q4982L109",
+        "class": "COM",
+        "rows": 196
+      },
+      {
+        "cusip": "Q4982L109",
+        "class": "Stock",
+        "rows": 193
+      },
+      {
+        "cusip": "Q4982L109",
+        "class": "Common Stock",
+        "rows": 142
+      },
+      {
+        "cusip": "Q4982L109",
+        "class": "COMMON",
+        "rows": 59
+      },
+      {
+        "cusip": "Q4982L909",
+        "class": "CALL",
+        "rows": 55
+      },
+      {
+        "cusip": "Q4982L109",
+        "class": "CMN",
+        "rows": 46
+      },
+      {
+        "cusip": "Q4982L959",
+        "class": "PUT",
+        "rows": 42
+      },
+      {
+        "cusip": "Q4982L109",
+        "class": "FOREIGN ORDINARIES",
+        "rows": 39
+      },
+      {
+        "cusip": "Q4982L109",
+        "class": "COMMON STOCK",
+        "rows": 33
+      },
+      {
+        "cusip": "Q4982L909",
+        "class": "ORDINARY SHARES",
+        "rows": 32
+      },
+      {
+        "cusip": "Q4982L109",
+        "class": "Equity",
+        "rows": 30
+      }
+    ],
+    "APLD": [
+      {
+        "cusip": "038169207",
+        "class": "COM NEW",
+        "rows": 4492
+      },
+      {
+        "cusip": "038169207",
+        "class": "COM",
+        "rows": 463
+      },
+      {
+        "cusip": "038169207",
+        "class": "Common Stock",
+        "rows": 237
+      },
+      {
+        "cusip": "038169207",
+        "class": "Stock",
+        "rows": 197
+      },
+      {
+        "cusip": "038169207",
+        "class": "COMMON",
+        "rows": 78
+      },
+      {
+        "cusip": "038169207",
+        "class": "COMMON STOCK",
+        "rows": 77
+      },
+      {
+        "cusip": "038169957",
+        "class": "PUT",
+        "rows": 68
+      },
+      {
+        "cusip": "038169907",
+        "class": "CALL",
+        "rows": 50
+      },
+      {
+        "cusip": "038169207",
+        "class": "CMN",
+        "rows": 49
+      },
+      {
+        "cusip": "038169AB4",
+        "class": "NOTE  2.750% 6/0",
+        "rows": 29
+      },
+      {
+        "cusip": "038169207",
+        "class": "COMM STK",
+        "rows": 24
+      },
+      {
+        "cusip": "038169907",
+        "class": "COM NEW",
+        "rows": 24
+      }
+    ],
+    "CRWV": [
+      {
+        "cusip": "21873S108",
+        "class": "COM CL A",
+        "rows": 4430
+      },
+      {
+        "cusip": "21873S108",
+        "class": "Common Stock",
+        "rows": 408
+      },
+      {
+        "cusip": "21873S108",
+        "class": "Stock",
+        "rows": 310
+      },
+      {
+        "cusip": "21873S108",
+        "class": "COM",
+        "rows": 287
+      },
+      {
+        "cusip": "21873S108",
+        "class": "COMMON STOCK",
+        "rows": 64
+      },
+      {
+        "cusip": "21873S108",
+        "class": "COMMON",
+        "rows": 60
+      },
+      {
+        "cusip": "21873S108",
+        "class": "Option",
+        "rows": 48
+      },
+      {
+        "cusip": "21873S108",
+        "class": "CMN",
+        "rows": 44
+      },
+      {
+        "cusip": "21873S958",
+        "class": "PUT",
+        "rows": 28
+      },
+      {
+        "cusip": "21873S908",
+        "class": "CALL",
+        "rows": 28
+      },
+      {
+        "cusip": "21873S108",
+        "class": "OPT",
+        "rows": 25
+      },
+      {
+        "cusip": "21873S108",
+        "class": "EQUITY",
+        "rows": 20
+      }
+    ]
+  },
+  "warning": "Counts include amendments, old report periods, options and overlap. Not positions, ownership, capital flows or institutional confidence. Zero candidate rows is not proof of zero holdings."
+}
