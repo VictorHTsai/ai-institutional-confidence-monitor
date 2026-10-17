@@ -36,6 +36,7 @@ def finalize_output(result):
 
 def main():
  db=sqlite3.connect(ROOT/'research/staging.sqlite');subs={};covers={};summaries={};relations=[];bad=collections.defaultdict(set)
+ bad['conflicting_metadata'].update(r[0] for r in db.execute('SELECT DISTINCT accession FROM conflicts'))
  print('Read metadata',flush=True)
  for kind,acc,j in db.execute('SELECT kind,accession,row_json FROM metadata'):
   r=json.loads(j)
